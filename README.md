@@ -15,12 +15,12 @@
 <br/>
 
 ## <a name="demo"></a>Demo 📹
-![tarjeta](https://github.com/danieljimenezmartin/tarjeta-interactiva/assets/117579989/0ece363b-104b-435f-8b1c-d054ff9dbca1)  
+![bingo](https://github.com/danieljimenezmartin/Bingo/assets/117579989/952cfb57-dc2a-41bd-ae85-c2662cc5096b)
 <br/>
 
 ## <a name="objetivos"></a>Objetivos 🎯
 
-*   Generación de tablas que se autocompleten con los números indicados.
+*   Generación de tablas que se autocompleten con un intervalo de números indicado.
 *   Generación aleatoria de números e inserción de estos en arrays.
 *   Implementación y uso del bucle indeterminado while.
 <br/>
@@ -30,7 +30,7 @@ Este proyecto no necesita instalación.
 <br/>
 
 ## <a name="ver-proyecto"></a>Ver el proyecto ⚡
-- [https://danieljimenezmartin.github.io/tarjeta-interactiva/](https://danieljimenezmartin.github.io/Tarjeta-interactiva/)
+- https://danieljimenezmartin.github.io/Bingo/
 <br/>
 
 ## <a name="desarrollo"></a>Desarrollo 📐
