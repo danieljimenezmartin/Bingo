@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: normal;
+    margin-top: .5rem;
+}
+
+.container {
+    width: 95vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#user-card, #pc-card, #bingo-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#user-numbers, #pc-numbers {
+    display: grid;
+    grid-template-columns: repeat(5,100px);
+    grid-template-rows: repeat(3,100px);
+    padding: 1rem;
+    position: relative;
+}
+
+#user-numbers span, #pc-numbers span {
+    font-size: 4em;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bingo-numbers {
+    display: grid;
+    grid-template-columns: repeat(11,50px);
+    grid-template-rows: repeat(9,38px);
+}
+
+#bingo-numbers span {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-size: 1.2em;
+    margin: 1rem;
+}
+
+#user-numbers .pull {
+    background-color: lightgreen;
+}
+
+#pc-numbers .pull {
+    background-color: lightsalmon;
+}
+
+.pull {
+    background-color: orange;
+}
