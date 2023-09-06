@@ -141,17 +141,17 @@ restartButtonElement.addEventListener("click", () => {
 });
 
 //Botón para cambiar los números de los cartones
-const changeCardsButtonElement = document.getElementById("change-cards");
+// const changeCardsButtonElement = document.getElementById("change-cards");
 
-changeCardsButtonElement.addEventListener("click", () => {
-  userNumbersElement.textContent = "";
-  pcNumbersElement.textContent = "";
-  userNumbersElement = document.getElementById("user-numbers");
-  pcNumbersElement = document.getElementById("pc-numbers");
-  fillArray(userNumbersElement);
-  arrayNumber = [];
-  fillArray(pcNumbersElement);
-});
+// changeCardsButtonElement.addEventListener("click", () => {
+//   userNumbersElement.textContent = "";
+//   pcNumbersElement.textContent = "";
+//   userNumbersElement = document.getElementById("user-numbers");
+//   pcNumbersElement = document.getElementById("pc-numbers");
+//   fillArray(userNumbersElement);
+//   arrayNumber = [];
+//   fillArray(pcNumbersElement);
+// });
 
 //Ejecutamos la función generar número cada medio segundo
 
@@ -167,6 +167,6 @@ function getBingoNewNumber() {
 
 startButtonElement.addEventListener("click", () => {
   startButtonElement.classList.add("hidden");
-  changeCardsButtonElement.classList.add("hidden");
+  // changeCardsButtonElement.classList.add("hidden");
   getBingoNewNumber();
 });
