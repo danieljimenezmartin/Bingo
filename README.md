@@ -30,7 +30,7 @@ Este proyecto no necesita instalación.
 <br/>
 
 ## <a name="ver-proyecto"></a>Ver el proyecto ⚡
-
+https://danieljimenezmartin.github.io/Bingo/
 <br/>
 
 ## <a name="desarrollo"></a>Desarrollo 📐
